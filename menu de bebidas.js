@@ -1,5 +1,5 @@
 let opcao = 3
-switch (opcao){
+switch (opcao)
     case 1:
         console.log("café")
         break
@@ -11,5 +11,3 @@ switch (opcao){
         break
     default:
         console.log("numero invalido")
-}    
-

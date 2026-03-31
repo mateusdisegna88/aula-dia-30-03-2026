@@ -1,8 +1,12 @@
-let numero = 2
-switch numero 
-case (numero < 0)
-    console.log("numero negativo")
-case (numero == 0)
-    console.log("numero é zero")
-case (numero > 0)
-    console.log("numero positivo")
+let numero = -3
+switch (true) {
+    case (numero < 0):
+     console.log("numero negativo")
+     break
+    case (numero == 0):
+     console.log("numero é zero")
+     break
+    case (numero > 0):
+     console.log("numero positivo")
+     break
+}
